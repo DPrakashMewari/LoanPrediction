@@ -190,7 +190,7 @@ input[type=submit]:hover {
 	<div id="rcornersk" >
 	
     <div id="rcorners3">
-      <form action="/predict"method="POST">
+      <form action="{{ url_for('predict')}}"method="POST">
        <p>Client Info</p> 
        
            <input type="text"  name='PersonName'
