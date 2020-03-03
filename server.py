@@ -111,4 +111,4 @@ def predict():
         s='Please Try Again Later'
         return render_template('index.html',s='{}' .format(s))
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
