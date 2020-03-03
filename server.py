@@ -4,6 +4,7 @@ Created on Thu Feb 27 17:19:54 2020
 
 @author: Prakash
 """
+import numpy as np
 import pickle
 from flask import Flask,jsonify,request,render_template
 import pandas as pd
